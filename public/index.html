@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-container">
+        <h2>Login</h2>
+        <input type="text" id="nickname" placeholder="Enter your nickname">
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <button id="login-btn">Login</button>
+    </div>
+    <div id="chat-container" style="display:none;">
+        <div id="users-list"></div>
+        <div id="messages"></div>
+        <input type="text" id="message-input" placeholder="Type a message">
+        <button id="send-btn">Send</button>
+        <button id="video-call-btn">Video Call</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
